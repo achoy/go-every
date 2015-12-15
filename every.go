@@ -15,6 +15,9 @@ import "os"
 const usage = `
   Usage: every [options] <interval> <command>
 
+  <interval>     a duration string, examples:
+                    5s, 6m (5 mins), 7h, ns|us|ms (not useful)
+
   Options:
 
     --no-stdout  suppress command stdout
